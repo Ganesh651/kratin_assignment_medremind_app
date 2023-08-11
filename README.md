@@ -1,9 +1,9 @@
-_MedRemind - Medication Tracking App_
+**MedRemind - Medication Tracking App**
 MedRemind is a simple medication tracking app built using React.js. It helps you keep track of your medications, set reminders, and mark medications as taken. Never miss a dose again!
 
 ![MedRemind](image.png)
 
-_Features_
+**Features**
 Add medications with details such as medication name, dosage, and schedule.
 Display medication reminders for the day.
 Mark medications as taken to keep track of adherence.
