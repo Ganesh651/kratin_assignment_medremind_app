@@ -4,7 +4,7 @@ import './index.css'
 const MedicationList = props => {
       const [isTaken, setIsTaken] = useState("Mark as taken")
       const {eachItem,markMedicationTaken} = props
-      const { name,schedule,dosage} = eachItem 
+      const { name,schedule,dosageCount} = eachItem 
 
       const onTakenMedicine = ()=>{
             setIsTaken(`${name} Taken`)
@@ -15,8 +15,8 @@ const MedicationList = props => {
             <li className='medicine-card'>
                   <h1>{name}</h1>
                   <p>{schedule}</p>
-                  <p>{dosage}</p>
-                  <button type="button" onClick={onTakenMedicine}>{isTaken}</button>
+                  <p>{dosageCount}</p>
+                  <button className='is-taken' type="button" onClick={onTakenMedicine}>{isTaken}</button>
             </li>
 
       )
