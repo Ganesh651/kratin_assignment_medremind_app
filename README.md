@@ -41,7 +41,8 @@ The app displays medication reminders for the day. Medications are listed with t
 
 Mark Medication as Taken: To mark a medication as taken, click the "Mark as Taken" button next to the respective medication. The medication will be marked as taken, and you'll receive feedback.
 
-**Contributing**
+**Contributing:**
+
 Contributions are welcome! If you'd like to contribute to MedRemind, please follow these steps:
 Fork the repository.
 
@@ -62,6 +63,7 @@ Copy code
 git push origin feature/new-feature
 Create a pull request on the original repository.
 
-**Acknowledgements**
+**Acknowledgements:**
+
 Built using React.js and styled with CSS.
 Thanks to Kratin for giving this oppurtunity.
