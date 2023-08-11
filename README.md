@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+MedRemind - Medication Tracking App
+MedRemind is a simple medication tracking app built using React.js. It helps you keep track of your medications, set reminders, and mark medications as taken. Never miss a dose again!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MedRemind](image.png)
 
-## Available Scripts
+Features
+Add medications with details such as medication name, dosage, and schedule.
+Display medication reminders for the day.
+Mark medications as taken to keep track of adherence.
+User-friendly interface for easy interaction.
+Installation
+Clone the repository:
 
-In the project directory, you can run:
+bash
+Copy code
+git clone https://github.com/your-username/med-remind.git
+Navigate to the project directory:
 
-### `npm start`
+bash
+Copy code
+cd med-remind
+Install the required dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm install
+Start the development server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
+Open your browser and go to http://localhost:3000 to use the app.
 
-### `npm test`
+Usage
+Add Medication: Enter the medication name, dosage, and schedule using the provided input fields. Click the "Add Medication" button to add the medication to your list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Display Reminders: The app displays medication reminders for the day. Medications are listed with their name, dosage, and schedule.
 
-### `npm run build`
+Mark Medication as Taken: To mark a medication as taken, click the "Mark as Taken" button next to the respective medication. The medication will be marked as taken, and you'll receive feedback.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributing
+Contributions are welcome! If you'd like to contribute to MedRemind, please follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Fork the repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a new branch for your feature/bug fix:
 
-### `npm run eject`
+bash
+Copy code
+git checkout -b feature/new-feature
+Make your changes and commit them:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+git commit -m "Add new feature"
+Push to your forked repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+git push origin feature/new-feature
+Create a pull request on the original repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgements
+Built using React.js and styled with CSS.
+Thanks to Kratin for giving this oppurtunity.
