@@ -13,7 +13,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/med-remind.git
+git clone https://github.com/Ganesh651/kratin_assignment_medremind_app.git
 Navigate to the project directory:
 
 bash
